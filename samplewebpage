@@ -10,7 +10,9 @@
 
   <body>
   <!-- all output or display in web page-->
-  
+   
+   <center>
+   
   <h1> SAMPLE TEXT</h1>
   <h2> SAMPLE h2 </h2>
   <h3> SAMPLE h3</h3>
@@ -22,13 +24,15 @@
   <br>
   
   <!-- a href is for new link / new page -->
-  <a href ="newpage.html">NEW PAGE</a>
+  <p>this is new link for  <a href ="newpage.html">NEW PAGE</a> </p>
   
   <br>
-  
+  <br>
   <!-- sample image -->
+  SAMPLE IMAGE <br>
   <img src="w3schools.jpg" width="104" height="142">
-  
+  <br>
+  <br>
   <!-- adding straight line if you want to have headings -->
   <hr>
   <p> Some text here </p>
@@ -37,20 +41,20 @@
   
   <!-- for input. Different type -->
   <h3> Please fill up the for </h3>
-  FIRST NAME : <input type ="text"> <br>
-  LAST NAME : <input type ="text"> <br>
-  USERNAME : <input type ="text"> <br>
-  PASSWORD : <input type ="password" > <br>
-  SUBMIT : <input type ="submit"> <br>
+  FIRST NAME  : <input type ="text"> <br>
+  LAST NAME    : <input type ="text"> <br>
+  USERNAME    : <input type ="text"> <br>
+  PASSWORD   : <input type ="password" > <br>
+  SUBMIT : 		<input type ="submit"> <br>
   
   <br> Please choose <br>
   <input type="radio" value="male" checked> Male<br>
   <input type="radio"  value="female"> Female<br>
-  <input type="radio"  value="other"> Other
+  <input type="radio"  value="other"> Other <br>
    
   <br>
   PLEASE CHOOSE from DROP DOWN LIST
-  <br>
+  <br><br>
   <select>
   <option value="volvo">Volvo</option>
   <option value="saab">Saab</option>
@@ -58,6 +62,8 @@
   <option value="audi">Audi</option>
   </select>
   
+  
+  <br><br>
   <br> Please check all you want <br>
   <input type="checkbox" value="Bike">BURGER<br>
   <input type="checkbox" value="Car">HOTDOG SANDWICH<br>
@@ -65,6 +71,6 @@
   <input type="checkbox" value="Car">SOFTDRINK <br>
   
   
-  
+  </center>
   </body>
 </html>
